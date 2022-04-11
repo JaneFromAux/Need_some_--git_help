@@ -1,20 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Fasthand&family=Gochi+Hand&display=swap');
+
+/* font-family: 'Butterfly Kids', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'Gochi Hand', cursive; */
 
 
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 html{
-    font-size: 62,5%;
+    font-size: 62.5%;
 }
 
-header h1{
-    font-size: 6rem;
-    color:tomato;
-} 
-header span{
-    
+html,
+body {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url('https://cdn.pixabay.com/photo/2017/04/13/21/42/old-2228749_1280.jpg');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* **************** 
+        HEADER
+ ***************** */
+/*  NAVBAR  */
+header nav ul{
+    list-style: none;
+    margin: 0 0 0 70%;
+}
+header nav ul li{
+    display: inline-block;
+    font-size:  1.6rem;
+    padding: 40px 40px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: beige;
 }

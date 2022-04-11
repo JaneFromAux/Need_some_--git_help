@@ -5,23 +5,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documen</title>
+    <title>THE CHEATERS' CHEATSHEET</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
+    <div class="parallax">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="assets/html/whyCheating.html">WHY CHEATING?</li></a>
+                    <li><a href="assets/html/theCheaters.html">THE CHEATERS</li></a>
+                </ul>
+            </nav>
+
+            <h1>NEED SOME <span>git --help</span> ?</h1>
+            <h2>DAS ULTIMATIVE CHEATCHEAT FÜR DEIN<span>git checkout </span></h2>
+            <p>Index</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>WAS IST <span>git</span>?!</li>
+                <li>GITHUB vs <span>git</span></li>
+                <li>WOZU BRAUCHEN WIR <span>git</span>?</li>
+                <li>WICHTIGE BEGRIFFE ZU <span>git</span></li>
+                <li>TERMINAL<span>BEFEHLE</span></li>
             </ul>
-        </nav>
-        <h1>NEED SOME <span>git --help</span> ?</h1>
-    </header>
+        </header>
+        <main>
+            <h2>WAS IST <span>git</span>?!</h2>
+            <p><span>git</span> Git ist ein Versionverwaltungstool, das bei jedem comitten eine Art Schnappschuss von
+                deinem Projekt macht. Hinterher hat man einen Stapel von Schnappschüssen.
+            </p>
+            <h2>GITHUB vs<span>git</span></h2>
+            <p>Git und Github sind nicht das gleiche! Git ist ein VSC-Tool und GitHub ist eine Plattform die Git
+                benutzt, es gibt auch andere zb. GitLab, GitBucket, BitBucket, Sourceforge und so weiter. </p>
+            <h2>WOZU BRAUCHEN WIR<span>git</span>?</h2>
+            <p>Git wird überall benutzt und ist eins der wichtigsten Tools für Entwickler geworden. Dadurch können
+                Entwickler von überall zusammenarbeiten.</p>
+            <section>
+                <h2>WICHTIGE BEGRIFFE ZU <span>git</span></h2>
+                <p>Lokal = Working Directory → Änderungen werden als Modified dargestellt
+                </p>
+                <p>
+                    Staged Area = Index → Daten werden für den commit vorgemerkt sind aber noch nicht hochgeladen
+                </p>
+                <p>.git directory repository → Daten sind von lokal auf git geklont worden und stehen als snapshot
+                    bereit
+                </p>
+                <p>Branching/Merge <a href="https://miro.com/app/board/uXjVO9rmPHw=/"></a>
+                </p>
+            </section>
 
+            <section>
+                <h2>TERMINAL<span>BEFEHLE</span></h2>
+                <h3><span>git init</span></h3>
+                <h4>initialisiert ein lokales git repository</h4>
 
+                <h3><span>git add . </span></h3>
+                <h4>gibt an was alles in den commit rein soll ( . gibt an das alles in den commit sol)
+                </h4>
+
+                <h3><span>git commit -m "text"</span></h3>
+                <h4>hinterlegt einen message/commit ( man kann auch sagen erlegt eine version an)
+                </h4>
+
+                <h3><span>git push</span></h3>
+                <h4>schickt das lokale repository in das github repository
+                </h4>
+
+                <h3><span>git log</span></h3>
+                <h4>zeigt alle bis dato erstellten commits ausführlich an</h4>
+
+                <h3><span>git log --oneline</span></h3>
+                <h4>zeigt alle die bis dato erstellten commits in kurzform an</h4>
+                <h3><span>git branch "name"</span></h3>
+                <h4>Erstellt einen neuen Branch
+                </h4>
+                <h3><span>git branch -a</span></h3>
+                <h4>Zeigt alle erstellten Branches an</h4>
+                <h3><span>git branch -d "name"</span></h3>
+                <h4>Löscht den ausgewählten Branch</h4>
+                <h3><span>git checkout</span></h3>
+                <h4>Wechseln zwischen den Branches
+                </h4>
+                <h3><span>git pull</span></h3>
+                <h4>Lädt die aktuelle Version des Repository von GitHub runter</h4>
+                <h3><span>git clone</span></h3>
+                <h4>Lädt die aktuelle Version des Repository von GitHub runter</h4>
+                <h3><span>git merge</span></h3>
+                <h4>Ist dafür da um zwei branches zusammenzuführen </h4>
+            </section>
+            <section>
+                <h2><span>A</span></h2>
+                <h3>ADDED</h3>
+                <h4>Ein neues file wurde zum repository hinzugefügt</h4>
+                <h2><span>M</span></h2>
+                <h3>MODIFIED</h3>
+                <h4>Ein bestehendes file wurde geändert</h4>
+                <h2><span>D</span></h2>
+                <h3>DELETE</h3>
+                <h4>Ein file wurde gelöscht</h4>
+                <h2><span>U</span></h2>
+                <h3>UNTRACKED</h3>
+                <h4>Das file ist neu oder wurde verändert -wurde jedoch noch nicht zum Repository hinzugefügt</h4>
+                <h2><span>C</span></h2>
+                <h3>CONFLICT</h3>
+                <h4>es gibt einen Konflikt in dem file</h4>
+                <h2><span>R</span></h2>
+                <h3>RENAMED</h3>
+                <h4>Das file wurde umbenannt</h4>
+                <h2><span>S</span></h2>
+                <h3>SUBMODUL</h3>
+                <h4>Im repository existiert ein Subrepository = untergeordnetes Repository</h4>
+            </section>
+        </main>
+    </div>
+    <footer></footer>
 </body>
 
 </html>
