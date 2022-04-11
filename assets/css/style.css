@@ -62,7 +62,7 @@ header nav ul li a:hover {
 li {
     font-size: 3rem;
     font-family: 'Gochi Hand', cursive;
-    display: inline;
+    display: block;
     padding-left: 5%;
 }
 
@@ -99,11 +99,13 @@ h3{
     padding: 0 5%;
     font-size: 4rem;
     color: rgb(4, 4, 114);
-    font-size: 7rem;
 }
 h4{
     padding: 0 5%;
     font-size: 4rem;
     color: rgb(4, 4, 114);
-    font-size: 7rem;
+}
+
+main section{
+    background: url('../img/pngwing.com.png') cover center no-repeat;
 }
