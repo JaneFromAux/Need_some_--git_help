@@ -95,3 +95,15 @@ span {
     font-family: 'Fasthand', cursive;
     text-decoration: underline;
 }
+h3{
+    padding: 0 5%;
+    font-size: 4rem;
+    color: rgb(4, 4, 114);
+    font-size: 7rem;
+}
+h4{
+    padding: 0 5%;
+    font-size: 4rem;
+    color: rgb(4, 4, 114);
+    font-size: 7rem;
+}
